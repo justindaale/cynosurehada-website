@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cynosure Hada Limited</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background: linear-gradient(135deg, #cce7ff, #f9f9f9);
+        }
+
+        a { text-decoration: none; color: inherit; }
+
+        /* Header */
+        header {
+            background: #0d6efd url('https://images.unsplash.com/photo-1581091215365-8013db0379b2?auto=format&fit=crop&w=1950&q=80') center/cover no-repeat;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        header p {
+            margin-top: 15px;
+            font-style: italic;
+            font-size: 1.3em;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+        }
+
+        /* Navigation */
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0056b3;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: white;
+            padding: 15px 25px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #003d80;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 50px 20px;
+        }
+
+        section { margin-bottom: 60px; }
+
+        h2 { color: #0d6efd; margin-bottom: 20px; }
+
+        ul { padding-left: 20px; }
+
+        /* Buttons */
+        .button {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: #0d6efd;
+            color: white;
+            border-radius: 5px;
+            margin-top: 15px;
+            transition: background 0.3s;
+        }
+
+        .button:hover {
+            background-color: #003d80;
+        }
+
+        /* Contact Info */
+        .contact-info p { margin: 8px 0; font-weight: bold; }
+
+        /* Footer */
+        footer {
+            background-color: #0d6efd;
+            color: white;
+            text-align: center;
+            padding: 25px 0;
+            margin-top: 50px;
+        }
+
+        /* Smooth Scroll */
+        html { scroll-behavior: smooth; }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            nav { flex-direction: column; }
+            nav a { text-align: center; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Cynosure Hada Limited</h1>
+        <p>"Absorbing Your Financial Shocks"</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p>At <strong>Cynosure Hada Limited</strong>, we understand that life can throw unexpected financial challenges your way. Our mission is to provide fast, reliable, and transparent lending solutions so you can regain control and peace of mind.</p>
+            <p>Whether you're a business looking for growth capital or an individual in need of emergency funds, we’re here to help. Think of us as your financial safety net – always ready to catch you when life happens.</p>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Personal Loans – Quick approval for your personal needs.</li>
+                <li>Business Loans – Empower your business with the capital it needs.</li>
+                <li>Emergency Financial Support – Fast solutions when life surprises you.</li>
+                <li>Flexible Repayment Plans – Designed to fit your financial comfort.</li>
+                <li>Financial Advice – Guidance to make smarter money decisions.</li>
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>We’d love to hear from you! Reach out today and let’s discuss how we can help you manage your finances better.</p>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:jessejustinhd@gmail.com">jessejustinhd@gmail.com</a></p>
+                <p>Phone: <a href="tel:+234701608840">0701608840</a></p>
+            </div>
+            <a href="mailto:jessejustinhd@gmail.com" class="button">Send Us a Message</a>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2026 Cynosure Hada Limited. All rights reserved.
+    </footer>
+</body>
+</html>
